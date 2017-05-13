@@ -1,0 +1,76 @@
+<html>
+<head>
+<style type="text/css">
+html, body{
+	margin: 0;
+	padding: 0;
+}
+	.topnav{
+		display: block;
+		text-align: right;
+		background-color: #3b5998;
+    	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    	border-bottom: 1px solid #133783;
+    	min-height: 42px;
+    	margin: 0;
+	}
+	.block{
+		display: block;
+	}
+	.midnav{
+		    margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+    text-align: right;
+	}
+	.midnav .right{
+		float: right;
+	}
+	.leftlogo{
+		float: left;
+		display: block;
+	}
+	.logo{
+		background-image: url(/images/logo.png);
+	}
+</style>
+</head>
+<body>
+<div class="topnav">
+<div class="block">
+<div class="midnav">
+<div class="leftlogo">
+<h1>
+<i class="logo">
+<u>
+facebook
+</u>
+</i>
+</h1>
+</div>
+<div class="right">
+	<form name="login" method="post" action="login.php">
+	<table>
+	<tr>
+	<td>Email</td>
+	<td>Password</td>
+	</tr>
+	<tr>
+	<td>
+	<input name="email" id="name" type="text"/>
+	</td>
+	<td>
+	<input name="pass" id="pass" type="password">
+	</td>
+	<td>
+	<button name="submit" type="submit" value="submit">Login</button>
+	</td>
+	</tr>
+	</table>
+	</form>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
